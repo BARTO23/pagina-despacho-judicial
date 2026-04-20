@@ -1,0 +1,72 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+          "secondary-fixed": "#c4e7ff",
+          "tertiary-fixed": "#e3e2e2",
+          "primary": "#000000",
+          "surface-container-highest": "#e5e1e6",
+          "on-secondary-container": "#005777",
+          "on-primary-fixed": "#131645",
+          "tertiary-container": "#1a1c1c",
+          "surface-container-low": "#f6f2f7",
+          "inverse-on-surface": "#f3eff4",
+          "secondary-container": "#77cdfd",
+          "on-tertiary": "#ffffff",
+          "outline-variant": "#c7c5d0",
+          "on-surface": "#1b1b1f",
+          "error-container": "#ffdad6",
+          "on-surface-variant": "#46464f",
+          "primary-fixed-dim": "#bfc2fb",
+          "on-primary-container": "#7c80b4",
+          "surface-container-lowest": "#ffffff",
+          "inverse-primary": "#bfc2fb",
+          "on-primary": "#ffffff",
+          "inverse-surface": "#303034",
+          "secondary-fixed-dim": "#7cd0ff",
+          "on-primary-fixed-variant": "#3f4273",
+          "background": "#fcf8fd",
+          "surface-container": "#f0edf2",
+          "on-tertiary-fixed": "#1a1c1c",
+          "on-error-container": "#93000a",
+          "surface-dim": "#dcd9de",
+          "primary-fixed": "#e0e0ff",
+          "tertiary": "#000000",
+          "primary-container": "#131645",
+          "surface-container-high": "#eae7ec",
+          "on-tertiary-fixed-variant": "#464747",
+          "surface-variant": "#e5e1e6",
+          "secondary": "#00658b",
+          "surface": "#fcf8fd",
+          "on-error": "#ffffff",
+          "error": "#ba1a1a",
+          "on-secondary": "#ffffff",
+          "on-tertiary-container": "#838484",
+          "outline": "#777680",
+          "tertiary-fixed-dim": "#c7c6c6",
+          "surface-bright": "#fcf8fd",
+          "on-secondary-fixed": "#001e2c",
+          "on-background": "#1b1b1f",
+          "surface-tint": "#575a8c",
+          "on-secondary-fixed-variant": "#004c69"
+      },
+      "borderRadius": {
+          "DEFAULT": "0.125rem",
+          "lg": "0.25rem",
+          "xl": "0.5rem",
+          "full": "0.75rem"
+      },
+      "fontFamily": {
+          "headline": ["Manrope"],
+          "body": ["Inter"],
+          "label": ["Inter"]
+      }
+    }
+  },
+  plugins: [],
+}
